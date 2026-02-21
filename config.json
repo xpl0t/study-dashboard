@@ -1,0 +1,254 @@
+{
+  "beginn": 1738364400.0,
+  "ects_insgesamt": 180,
+  "name": "Informatik",
+  "semester": [
+    {
+      "module": [
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSEAIS01_D",
+          "leistung": {
+            "datum": 1745452800.0,
+            "note": 1.0
+          },
+          "name": "Artificial Intelligence"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBWIRITT01",
+          "leistung": {
+            "datum": 1748822400.0,
+            "note": 1.0
+          },
+          "name": "Einf\u00fchrung in das wissenschaftliche Arbeiten f\u00fcr IT und Technik"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSIPWP01_D",
+          "leistung": {
+            "datum": 1790726400.0,
+            "note": 1.0
+          },
+          "name": "Einf\u00fchrung in die Programmierung mit Python"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBBIMD01",
+          "leistung": {
+            "datum": 1758672000.0,
+            "note": 2.3
+          },
+          "name": "Mathematik: Analysis"
+        },
+        {
+          "angerechnet": true,
+          "ects": 5,
+          "id": "DLBKA01",
+          "leistung": null,
+          "name": "Kollaboratives Arbeiten"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSSPDS01_D",
+          "leistung": {
+            "datum": 1767657600.0,
+            "note": 3.3
+          },
+          "name": "Statistik - Wahrscheinlichkeit und deskriptive Statistik"
+        }
+      ],
+      "nummer": 1
+    },
+    {
+      "module": [
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSOOFPP01_D",
+          "leistung": {
+            "datum": 1780099200.0,
+            "note": 1.0
+          },
+          "name": "Projekt: Objektorientierte und funktionale Programmierung mit Python"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBBIM01",
+          "leistung": {
+            "datum": 1777852800.0,
+            "note": 2.0
+          },
+          "name": "Mathematik: Lineare Algebra"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBIHK01",
+          "leistung": {
+            "datum": 1769817600.0,
+            "note": 3.3
+          },
+          "name": "Interkulturelle und ethische Handlungskompetenzen"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSSIS01_D",
+          "leistung": null,
+          "name": "Statistik - Induktive Statistik"
+        },
+        {
+          "angerechnet": true,
+          "ects": 5,
+          "id": "DLBDSCC01_D",
+          "leistung": null,
+          "name": "Cloud Computing"
+        },
+        {
+          "angerechnet": true,
+          "ects": 5,
+          "id": "DLBSEPCP01_D",
+          "leistung": null,
+          "name": "Projekt: Cloud Programming"
+        }
+      ],
+      "nummer": 2
+    },
+    {
+      "module": [
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSMLSL01_D",
+          "leistung": null,
+          "name": "Maschinelles Lernen - Supervised Learning"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSMLUSL01_D",
+          "leistung": null,
+          "name": "Maschinelles Lernen - Unsupervised Learning und Feature Engineering"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBAIICV01_D",
+          "leistung": null,
+          "name": "Einf\u00fchrung in Computer Vision"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBAIIRL01_D",
+          "leistung": null,
+          "name": "Einf\u00fchrung in das Reinforcement Learning"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBAIPCV01_D",
+          "leistung": null,
+          "name": "Projekt: Computer Vision"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSNNDL01_D",
+          "leistung": null,
+          "name": "Neuronale Netze und Deep Learning"
+        }
+      ],
+      "nummer": 3
+    },
+    {
+      "module": [
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBAIINLP01_D",
+          "leistung": null,
+          "name": "Einf\u00fchrung in NLP"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBAIPNLP01_D",
+          "leistung": null,
+          "name": "Projekt: NLP"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSDSSE01_D",
+          "leistung": null,
+          "name": "Data Science Software Engineering"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSMTP01_D",
+          "leistung": null,
+          "name": "Projekt: Vom Modell zum Produktvertrieb"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBISIC01",
+          "leistung": null,
+          "name": "Einf\u00fchrung in Datenschutz und IT-Sicherheit"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDSSECDS01_D",
+          "leistung": null,
+          "name": "Seminar: Ethische Fragen der Data Science"
+        }
+      ],
+      "nummer": 4
+    },
+    {
+      "module": [
+        {
+          "angerechnet": true,
+          "ects": 5,
+          "id": "DLBMIUEX02",
+          "leistung": null,
+          "name": "UX-Projekt"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBROIR01-01_D",
+          "leistung": null,
+          "name": "Einf\u00fchrung in die Robotik"
+        },
+        {
+          "angerechnet": false,
+          "ects": 5,
+          "id": "DLBDBAPM01",
+          "leistung": null,
+          "name": "Projekt: Agiles Projektmanagement"
+        },
+        {
+          "angerechnet": true,
+          "ects": 5,
+          "id": "DLBMIUEX01-01",
+          "leistung": null,
+          "name": "User Experience"
+        }
+      ],
+      "nummer": 5
+    }
+  ],
+  "zielende": 1832972400.0,
+  "zielnote": 2.0
+}

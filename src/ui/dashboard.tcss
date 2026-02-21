@@ -1,0 +1,20 @@
+.content {
+    /* Abstand um den Inhaltsbereich. */
+    margin: 1 1;
+    width: 1fr;
+    height: 100%
+}
+
+/* Helper-Klassen inspiriert von Bootstrap */
+
+.h-auto {
+    height: auto;
+ }
+
+.single-line {
+    height: 1;
+}
+
+.mb-1 {
+    margin-bottom: 1;
+}

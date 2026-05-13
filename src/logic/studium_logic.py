@@ -97,7 +97,7 @@ class StudiumLogic:
         sg = self.get_studiengang()
 
         # Um diese Metrik zu berechnen, wird die Anzahl der verbleibenden ECTS den verbleibenden Tagen gegenübergestellt.
-        days_left = (sg.zielende - datetime.now(timezone.utc)).days
+        days_left = (sg.zielende.astimezone(timezone.utc) - datetime.now(timezone.utc)).days
         etcs_left = sg.ects_insgesamt - self.get_current_ects()
 
         # int() sorgt für eine bedingungslose Abrundung der Zahl
@@ -131,5 +131,8 @@ class StudiumLogic:
 
         quota_done = self.get_current_ects() / sg.ects_insgesamt
         quota_remaining = 1 - quota_done
+        # Falls noch keine Note vorhanden ist, wird stellvertretend mit der Zielnote gerechnet.
+        # Dies verhindert Berechnungsfehler, wenn beispielsweise einige Kurse angerechnet wurden, aber keine normale Leistung eingetragen ist.
+        avg_grade = self.get_average_grade() if self.get_average_grade() != 0 else sg.zielnote
 
-        return (sg.zielnote - quota_done * self.get_average_grade()) / quota_remaining
+        return (sg.zielnote - quota_done * avg_grade) / quota_remaining

@@ -47,6 +47,9 @@ class SemesterTable(Widget):
         sg = self.logic.get_studiengang()
         rows = []
 
+        if len(sg.semester) == 0:
+            return []
+
         # Maximale Modulanzahl ermitteln = Anzahl Zeilen
         maxModule = max([ len(s.module) for s in sg.semester ])
 

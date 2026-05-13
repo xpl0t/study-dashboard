@@ -70,7 +70,7 @@ class SemesterTable(Widget):
                 if module.angerechnet:
                     row.append(Text("☑", style="blue"))
                 elif module.leistung is not None:
-                    row.append(Text("☑", style="green"))
+                    row.append(Text("✅", style="green"))
                 else:
                     row.append("☐")
 
